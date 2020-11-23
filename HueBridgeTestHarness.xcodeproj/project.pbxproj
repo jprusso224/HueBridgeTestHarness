@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5235D30C256C1D2900ADEC82 /* HueBridgeBrowserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5235D30B256C1D2900ADEC82 /* HueBridgeBrowserDelegate.swift */; };
+		5235D311256C1EF900ADEC82 /* HueBridgeServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5235D310256C1EF900ADEC82 /* HueBridgeServiceDelegate.swift */; };
+		5235D316256C1FEC00ADEC82 /* HueBridgeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5235D315256C1FEC00ADEC82 /* HueBridgeClient.swift */; };
+		5235D31C256C642600ADEC82 /* HueBridgeServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5235D31B256C642600ADEC82 /* HueBridgeServiceView.swift */; };
+		52D2390A256C08DF00AD9FA5 /* HueBridgeTestHarnessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D23909256C08DF00AD9FA5 /* HueBridgeTestHarnessApp.swift */; };
+		52D2390C256C08DF00AD9FA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D2390B256C08DF00AD9FA5 /* ContentView.swift */; };
+		52D2390E256C08E000AD9FA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D2390D256C08E000AD9FA5 /* Assets.xcassets */; };
+		52D23911256C08E000AD9FA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D23910256C08E000AD9FA5 /* Preview Assets.xcassets */; };
+		52D2391D256C08E000AD9FA5 /* HueBridgeTestHarnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D2391C256C08E000AD9FA5 /* HueBridgeTestHarnessTests.swift */; };
+		52D23928256C08E000AD9FA5 /* HueBridgeTestHarnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D23927256C08E000AD9FA5 /* HueBridgeTestHarnessUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52D23919256C08E000AD9FA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52D238FE256C08DF00AD9FA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52D23905256C08DF00AD9FA5;
+			remoteInfo = HueBridgeTestHarness;
+		};
+		52D23924256C08E000AD9FA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52D238FE256C08DF00AD9FA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52D23905256C08DF00AD9FA5;
+			remoteInfo = HueBridgeTestHarness;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5235D30B256C1D2900ADEC82 /* HueBridgeBrowserDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueBridgeBrowserDelegate.swift; sourceTree = "<group>"; };
+		5235D310256C1EF900ADEC82 /* HueBridgeServiceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueBridgeServiceDelegate.swift; sourceTree = "<group>"; };
+		5235D315256C1FEC00ADEC82 /* HueBridgeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueBridgeClient.swift; sourceTree = "<group>"; };
+		5235D31B256C642600ADEC82 /* HueBridgeServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueBridgeServiceView.swift; sourceTree = "<group>"; };
+		52D23906256C08DF00AD9FA5 /* HueBridgeTestHarness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HueBridgeTestHarness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D23909256C08DF00AD9FA5 /* HueBridgeTestHarnessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueBridgeTestHarnessApp.swift; sourceTree = "<group>"; };
+		52D2390B256C08DF00AD9FA5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52D2390D256C08E000AD9FA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52D23910256C08E000AD9FA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52D23912256C08E000AD9FA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D23913256C08E000AD9FA5 /* HueBridgeTestHarness.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HueBridgeTestHarness.entitlements; sourceTree = "<group>"; };
+		52D23918256C08E000AD9FA5 /* HueBridgeTestHarnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HueBridgeTestHarnessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D2391C256C08E000AD9FA5 /* HueBridgeTestHarnessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueBridgeTestHarnessTests.swift; sourceTree = "<group>"; };
+		52D2391E256C08E000AD9FA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D23923256C08E000AD9FA5 /* HueBridgeTestHarnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HueBridgeTestHarnessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D23927256C08E000AD9FA5 /* HueBridgeTestHarnessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueBridgeTestHarnessUITests.swift; sourceTree = "<group>"; };
+		52D23929256C08E000AD9FA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52D23903256C08DF00AD9FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D23915256C08E000AD9FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D23920256C08E000AD9FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5235D302256C1C3D00ADEC82 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5235D30B256C1D2900ADEC82 /* HueBridgeBrowserDelegate.swift */,
+				5235D310256C1EF900ADEC82 /* HueBridgeServiceDelegate.swift */,
+				5235D315256C1FEC00ADEC82 /* HueBridgeClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		5235D31A256C640400ADEC82 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5235D31B256C642600ADEC82 /* HueBridgeServiceView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		52D238FD256C08DF00AD9FA5 = {
+			isa = PBXGroup;
+			children = (
+				52D23908256C08DF00AD9FA5 /* HueBridgeTestHarness */,
+				52D2391B256C08E000AD9FA5 /* HueBridgeTestHarnessTests */,
+				52D23926256C08E000AD9FA5 /* HueBridgeTestHarnessUITests */,
+				52D23907256C08DF00AD9FA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52D23907256C08DF00AD9FA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52D23906256C08DF00AD9FA5 /* HueBridgeTestHarness.app */,
+				52D23918256C08E000AD9FA5 /* HueBridgeTestHarnessTests.xctest */,
+				52D23923256C08E000AD9FA5 /* HueBridgeTestHarnessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52D23908256C08DF00AD9FA5 /* HueBridgeTestHarness */ = {
+			isa = PBXGroup;
+			children = (
+				5235D31A256C640400ADEC82 /* UI */,
+				5235D302256C1C3D00ADEC82 /* Networking */,
+				52D23909256C08DF00AD9FA5 /* HueBridgeTestHarnessApp.swift */,
+				52D2390B256C08DF00AD9FA5 /* ContentView.swift */,
+				52D2390D256C08E000AD9FA5 /* Assets.xcassets */,
+				52D23912256C08E000AD9FA5 /* Info.plist */,
+				52D23913256C08E000AD9FA5 /* HueBridgeTestHarness.entitlements */,
+				52D2390F256C08E000AD9FA5 /* Preview Content */,
+			);
+			path = HueBridgeTestHarness;
+			sourceTree = "<group>";
+		};
+		52D2390F256C08E000AD9FA5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				52D23910256C08E000AD9FA5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52D2391B256C08E000AD9FA5 /* HueBridgeTestHarnessTests */ = {
+			isa = PBXGroup;
+			children = (
+				52D2391C256C08E000AD9FA5 /* HueBridgeTestHarnessTests.swift */,
+				52D2391E256C08E000AD9FA5 /* Info.plist */,
+			);
+			path = HueBridgeTestHarnessTests;
+			sourceTree = "<group>";
+		};
+		52D23926256C08E000AD9FA5 /* HueBridgeTestHarnessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52D23927256C08E000AD9FA5 /* HueBridgeTestHarnessUITests.swift */,
+				52D23929256C08E000AD9FA5 /* Info.plist */,
+			);
+			path = HueBridgeTestHarnessUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52D23905256C08DF00AD9FA5 /* HueBridgeTestHarness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D2392C256C08E000AD9FA5 /* Build configuration list for PBXNativeTarget "HueBridgeTestHarness" */;
+			buildPhases = (
+				52D23902256C08DF00AD9FA5 /* Sources */,
+				52D23903256C08DF00AD9FA5 /* Frameworks */,
+				52D23904256C08DF00AD9FA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HueBridgeTestHarness;
+			productName = HueBridgeTestHarness;
+			productReference = 52D23906256C08DF00AD9FA5 /* HueBridgeTestHarness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52D23917256C08E000AD9FA5 /* HueBridgeTestHarnessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D2392F256C08E000AD9FA5 /* Build configuration list for PBXNativeTarget "HueBridgeTestHarnessTests" */;
+			buildPhases = (
+				52D23914256C08E000AD9FA5 /* Sources */,
+				52D23915256C08E000AD9FA5 /* Frameworks */,
+				52D23916256C08E000AD9FA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52D2391A256C08E000AD9FA5 /* PBXTargetDependency */,
+			);
+			name = HueBridgeTestHarnessTests;
+			productName = HueBridgeTestHarnessTests;
+			productReference = 52D23918256C08E000AD9FA5 /* HueBridgeTestHarnessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52D23922256C08E000AD9FA5 /* HueBridgeTestHarnessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D23932256C08E000AD9FA5 /* Build configuration list for PBXNativeTarget "HueBridgeTestHarnessUITests" */;
+			buildPhases = (
+				52D2391F256C08E000AD9FA5 /* Sources */,
+				52D23920256C08E000AD9FA5 /* Frameworks */,
+				52D23921256C08E000AD9FA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52D23925256C08E000AD9FA5 /* PBXTargetDependency */,
+			);
+			name = HueBridgeTestHarnessUITests;
+			productName = HueBridgeTestHarnessUITests;
+			productReference = 52D23923256C08E000AD9FA5 /* HueBridgeTestHarnessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52D238FE256C08DF00AD9FA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					52D23905256C08DF00AD9FA5 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					52D23917256C08E000AD9FA5 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 52D23905256C08DF00AD9FA5;
+					};
+					52D23922256C08E000AD9FA5 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 52D23905256C08DF00AD9FA5;
+					};
+				};
+			};
+			buildConfigurationList = 52D23901256C08DF00AD9FA5 /* Build configuration list for PBXProject "HueBridgeTestHarness" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52D238FD256C08DF00AD9FA5;
+			productRefGroup = 52D23907256C08DF00AD9FA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52D23905256C08DF00AD9FA5 /* HueBridgeTestHarness */,
+				52D23917256C08E000AD9FA5 /* HueBridgeTestHarnessTests */,
+				52D23922256C08E000AD9FA5 /* HueBridgeTestHarnessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52D23904256C08DF00AD9FA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D23911256C08E000AD9FA5 /* Preview Assets.xcassets in Resources */,
+				52D2390E256C08E000AD9FA5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D23916256C08E000AD9FA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D23921256C08E000AD9FA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52D23902256C08DF00AD9FA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5235D311256C1EF900ADEC82 /* HueBridgeServiceDelegate.swift in Sources */,
+				52D2390C256C08DF00AD9FA5 /* ContentView.swift in Sources */,
+				5235D31C256C642600ADEC82 /* HueBridgeServiceView.swift in Sources */,
+				52D2390A256C08DF00AD9FA5 /* HueBridgeTestHarnessApp.swift in Sources */,
+				5235D30C256C1D2900ADEC82 /* HueBridgeBrowserDelegate.swift in Sources */,
+				5235D316256C1FEC00ADEC82 /* HueBridgeClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D23914256C08E000AD9FA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D2391D256C08E000AD9FA5 /* HueBridgeTestHarnessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D2391F256C08E000AD9FA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D23928256C08E000AD9FA5 /* HueBridgeTestHarnessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52D2391A256C08E000AD9FA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52D23905256C08DF00AD9FA5 /* HueBridgeTestHarness */;
+			targetProxy = 52D23919256C08E000AD9FA5 /* PBXContainerItemProxy */;
+		};
+		52D23925256C08E000AD9FA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52D23905256C08DF00AD9FA5 /* HueBridgeTestHarness */;
+			targetProxy = 52D23924256C08E000AD9FA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		52D2392A256C08E000AD9FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52D2392B256C08E000AD9FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		52D2392D256C08E000AD9FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HueBridgeTestHarness/HueBridgeTestHarness.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"HueBridgeTestHarness/Preview Content\"";
+				DEVELOPMENT_TEAM = 2UBS57MZ3L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HueBridgeTestHarness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jpr224.HueBridgeTestHarness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		52D2392E256C08E000AD9FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HueBridgeTestHarness/HueBridgeTestHarness.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"HueBridgeTestHarness/Preview Content\"";
+				DEVELOPMENT_TEAM = 2UBS57MZ3L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HueBridgeTestHarness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jpr224.HueBridgeTestHarness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		52D23930256C08E000AD9FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2UBS57MZ3L;
+				INFOPLIST_FILE = HueBridgeTestHarnessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jpr224.HueBridgeTestHarnessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HueBridgeTestHarness.app/Contents/MacOS/HueBridgeTestHarness";
+			};
+			name = Debug;
+		};
+		52D23931256C08E000AD9FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2UBS57MZ3L;
+				INFOPLIST_FILE = HueBridgeTestHarnessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jpr224.HueBridgeTestHarnessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HueBridgeTestHarness.app/Contents/MacOS/HueBridgeTestHarness";
+			};
+			name = Release;
+		};
+		52D23933256C08E000AD9FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2UBS57MZ3L;
+				INFOPLIST_FILE = HueBridgeTestHarnessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jpr224.HueBridgeTestHarnessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = HueBridgeTestHarness;
+			};
+			name = Debug;
+		};
+		52D23934256C08E000AD9FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2UBS57MZ3L;
+				INFOPLIST_FILE = HueBridgeTestHarnessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jpr224.HueBridgeTestHarnessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = HueBridgeTestHarness;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52D23901256C08DF00AD9FA5 /* Build configuration list for PBXProject "HueBridgeTestHarness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D2392A256C08E000AD9FA5 /* Debug */,
+				52D2392B256C08E000AD9FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52D2392C256C08E000AD9FA5 /* Build configuration list for PBXNativeTarget "HueBridgeTestHarness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D2392D256C08E000AD9FA5 /* Debug */,
+				52D2392E256C08E000AD9FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52D2392F256C08E000AD9FA5 /* Build configuration list for PBXNativeTarget "HueBridgeTestHarnessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D23930256C08E000AD9FA5 /* Debug */,
+				52D23931256C08E000AD9FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52D23932256C08E000AD9FA5 /* Build configuration list for PBXNativeTarget "HueBridgeTestHarnessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D23933256C08E000AD9FA5 /* Debug */,
+				52D23934256C08E000AD9FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52D238FE256C08DF00AD9FA5 /* Project object */;
+}
