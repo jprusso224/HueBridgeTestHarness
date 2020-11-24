@@ -36,7 +36,13 @@ struct HueBridgeServiceView: View {
         DiscoveredServiceInfoListItem(valueName: "Port:",
                                       valueText: String(discoveredService.service.port))
         DiscoveredServiceInfoListItem(valueName: "Address Resolution State:",
-                                      valueText: discoveredService.delegate.getAddressResolutionState().rawValue)
+                                      valueText: discoveredService.delegate.status.rawValue)
+        
+        ForEach(discoveredService.delegate.formattedAddresses, id: \.self)
+        {
+            address in
+            Text(address)
+        }
     }
 }
 
